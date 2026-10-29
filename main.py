@@ -1,10 +1,39 @@
 def mostrar_menu():
-    print("=== PYTHON SECURITY TOOLKIT ===")
+    print("\n=== PYTHON SECURITY TOOLKIT ===")
     print("1. Consultar informacion del proyecto")
-    print("2. Salir")
+    print("2. Consultar conceptos de Python")
+    print("3. Salir")
+
+
+def consultar_proyecto():
+    print("\nProyecto educativo para aprender Python, Git y GitHub.")
+    print("Enfocado en herramientas educativas de ciberseguridad.")
+
+
+def consultar_conceptos():
+    print("\nPython permite crear programas mediante funciones,")
+    print("estructuras de control, modulos y otras herramientas.")
+
 
 def main():
-    mostrar_menu()
+    while True:
+        mostrar_menu()
+
+        opcion = input("\nSelecciona una opcion: ")
+
+        if opcion == "1":
+            consultar_proyecto()
+
+        elif opcion == "2":
+            consultar_conceptos()
+
+        elif opcion == "3":
+            print("Saliendo del programa...")
+            break
+
+        else:
+            print("Opcion no valida. Intentalo nuevamente.")
+
 
 if __name__ == "__main__":
     main()
