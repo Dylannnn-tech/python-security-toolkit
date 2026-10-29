@@ -12,3 +12,5 @@ Proyecto educativo para aprender Python, Git y GitHub.
 ## Ejecucion
 
 python main.py
+
+Proyecto en desarrollo: aprendiendo Git, GitHub y Python.
